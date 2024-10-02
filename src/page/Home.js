@@ -1,13 +1,14 @@
 import React from "react";
+import Banner from "../components/Banner";
+import Category from "../components/Category";
+import FlashSale from "../components/FlashSale";
 
 export const Home = () => {
     return (
         <div>
-            <h1 className="text-white font-extrabold text-center bg-red-950">Home</h1>
-            <h2>Home</h2>
-            <h1>Home</h1>
-            <h1>Home</h1>
-            <h1>Home</h1>
+            <Banner></Banner>
+            <Category></Category>
+            <FlashSale></FlashSale>
         </div>
     )
 }
